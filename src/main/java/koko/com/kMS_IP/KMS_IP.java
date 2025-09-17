@@ -1,4 +1,4 @@
-package koko.com.kMS_IP;
+package github.com.kMS_IP;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

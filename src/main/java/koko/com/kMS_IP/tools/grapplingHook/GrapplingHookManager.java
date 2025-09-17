@@ -1,4 +1,4 @@
-package koko.com.KMS_IP.tools.grapplingHook;
+package github.com.KMS_IP.tools.grapplingHook;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;

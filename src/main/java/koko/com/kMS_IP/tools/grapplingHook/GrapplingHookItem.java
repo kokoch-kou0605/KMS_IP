@@ -1,4 +1,4 @@
-package koko.com.kMS_IP.tools.grapplingHook;
+package github.com.kMS_IP.tools.grapplingHook;
 
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
