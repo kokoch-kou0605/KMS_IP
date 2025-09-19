@@ -67,7 +67,7 @@ public class GrapplingHookManager{
         dir.multiplay(GRAPPLING_FORCE);
 
         //y軸を少し上向きにして上昇するようにする
-        dir.setY(dir.getY() + 0.3); //後で見る上から4つ目 アイテム10個追加配信 32:38!!
+        dir.setY(dir.getY() + 0.3);
 
         //プレイヤーをぶっ飛ばす
         p.setVelocity(dir);
