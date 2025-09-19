@@ -1,6 +1,7 @@
 package github.com.kMS_IP.tools.grapplingHook;
 
 import org.bukkit.Location;
+import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;
@@ -72,6 +73,27 @@ public class GrapplingHookManager{
         //プレイヤーをぶっ飛ばす
         p.setVelocity(dir);
 
+        //エフェクト表示
+
+        p.playSound(p.getLocation(), Sound.ENTITY_ENDERMAN_TELEPORT, 1,1.2f);
+
+        //TODO クールダウン
+
+        p.sendMessage("&aぶっ飛べ!")
+
     }
+
+    /**
+     * クールタイム設定
+     */
+    private void setCooldown(Player p) {
+
+        cooldowns.put(p.getUniqueId(), System.currentTimeMillis());
+
+    }
+
+    /**
+     *
+     */
 
 }
