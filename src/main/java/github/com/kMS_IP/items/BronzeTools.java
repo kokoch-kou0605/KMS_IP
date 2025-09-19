@@ -29,7 +29,7 @@ public  class BronzeTools {
     public static ItemStack bronzePickaxe() {
 
         ItemStack item = ItemRegister.createTool(Material.IRON_PICKAXE,"銅のツルハシ",
-                ItemLore.Lore.BASIC_TOOL, 2
+                ItemLore.Lore.BASIC_TOOL, 2,
                 new String[]{
 
                         "&f銅で作られたツルハシ。",
