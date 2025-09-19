@@ -1,4 +1,4 @@
 name: KMS_IP
 version: '1.0-SNAPSHOT'
-main: koko.com.kMS_IP.KMS_IP
+main: github.com.kMS_IP.KMS_IP
 api-version: '1.21'
