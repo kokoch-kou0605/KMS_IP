@@ -1,4 +1,4 @@
-package com.example.bronzetools;
+package github.com.kMS_IP.bronztools;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -10,6 +10,9 @@ public class BronzeToolsPlugin extends JavaPlugin {
 
         // レシピ登録
         BronzeRecipes.registerRecipes(this);
+
+        // 金床での修理リスナー登録
+        getServer().getPluginManager().registerEvents(new BronzeAnvilListener(), this);
     }
 
     @Override

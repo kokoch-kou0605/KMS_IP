@@ -1,4 +1,4 @@
-package com.example.bronzetools;
+package github.com.kMS_IP.bronztools;
 
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
